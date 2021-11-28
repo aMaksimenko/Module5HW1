@@ -6,7 +6,7 @@
         {
             var starter = new Starter();
 
-            starter.Run();
+            starter.Run().GetAwaiter().GetResult();
         }
     }
 }
